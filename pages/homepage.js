@@ -1,7 +1,7 @@
 let homepage =function(){
-    let firstNumber = element(by.model('first'));
-    let secondNumber = element(by.model('second'));
-    let goClick = element(by.css('[ng-click="doAddition()"]'));
+    const firstNumber = element(by.model('first'));
+    const secondNumber = element(by.model('second'));
+    const goClick = element(by.css('[ng-click="doAddition()"]'));
 
     this.getUrl=function(url){
         browser.get(url);
